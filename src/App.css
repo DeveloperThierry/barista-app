@@ -9,7 +9,11 @@
 .mini-container {
   flex-direction: column;
   margin:50px;
-}
+  background-color: rgb(0, 0, 0);
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1); /* The drop shadow from the images */
+  width: 200px;}
 
 .wrong{
   color:red;
@@ -21,4 +25,95 @@
 
 li {
   list-style: none;
+}
+
+
+.answer-space {
+  width: 80%;
+  height: 40px;
+  margin: 10px auto;
+  border-radius: 10px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  
+}
+
+/* --- App & Typography --- */
+.App {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  color: #333;
+}
+
+.title-container h1 {
+  font-size: 3rem;
+}
+
+.title-container p {
+  font-style: italic;
+  color: #555;
+  margin-top: 0;
+}
+
+/* --- Drink Display Box --- */
+.drink-container {
+  padding: 15px;
+  border-radius: 8px;
+  width: 60%;
+  margin: 20px auto;
+  font-weight: bold;
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+
+.mini-container h3 {
+  margin-top: 0;
+  font-size: 1.2rem;
+}
+
+/* --- Radio Buttons Layout --- */
+.radio-buttons {
+  text-align: left;
+  margin-top: 20px;
+  padding-left: 20px;
+}
+
+.radio-buttons li {
+  margin-bottom: 8px;
+}
+
+/* --- Buttons --- */
+.button {
+  background-color: #3b82f6; /* Brown button color */
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 30px;
+}
+
+.button:hover {
+  background-color: #689ff8;
+}
+
+/* "New Drink" button next to the drink name */
+.newdrink {
+  background-color: #3b82f6; /* Blue reset icon button */
+  padding: 8px 12px;
+  margin-top: 0;
+}
+
+/* --- Stretch Goal: Textboxes --- */
+.textbox {
+  width: 90%;
+  padding: 8px;
+  margin-top: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
 }
