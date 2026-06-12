@@ -1,0 +1,24 @@
+.mini-container, .container {
+  display:flex;
+  justify-content: space-evenly;
+}
+.container {
+  align-items:flex-start;
+  position:relative;
+}
+.mini-container {
+  flex-direction: column;
+  margin:50px;
+}
+
+.wrong{
+  color:red;
+}
+
+.correct{
+  color:green;
+}
+
+li {
+  list-style: none;
+}
